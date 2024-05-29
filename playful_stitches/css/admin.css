@@ -1,0 +1,209 @@
+/* admin_login.php */
+
+.login-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+.login-title {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.login-button {
+  background-color: #986C4A;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+}
+
+.login-button:hover {
+  background-color: #CBB08D;
+}
+
+.nav-tabs .nav-link.active {
+  color: black;
+  font-weight: bold;
+}
+
+.nav-tabs .nav-link:not(.active) {
+  color: gray;
+}
+
+.nav-pills .nav-link.active {
+  font-weight: bold;
+}
+
+/* admin_header.php */
+.header .flex {
+  position: relative;
+}
+
+.header .flex .icons>* {
+  cursor: pointer;
+}
+
+.header .flex .icons>*:hover {
+  color: #f8f7f6;
+}
+
+.header .flex .profile {
+  position: absolute;
+  top: 120%;
+  right: 5rem;
+  background-color: #D8CAB5;
+  box-shadow: var(--box-shadow);
+  border: var(--border);
+  border-radius: .5rem;
+  width: 12rem;
+  display: none;
+  animation: fadeIn .2s linear;
+}
+
+@keyframes fadeIn {
+  0% {
+    transform: translateY(1rem);
+  }
+}
+
+.header .flex .profile.active {
+  display: inline-block;
+}
+
+.buttons-container button {
+  margin-top: 0.5rem;
+  width: 100%;
+  color: white;
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.buttons-container a {
+  text-decoration: none;
+  color: white;
+}
+
+/* admin-order.html */
+.box {
+	background-color: #ffffff;
+	padding: 20px;
+  border-radius: 3px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container2 {
+	background-color: #ffffff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+	padding: 20px;
+	width: 100%;
+	position: relative;
+}
+
+.inner-box {
+	display: flex;
+	width: 100%;
+	height: 135px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.inner-box img {
+	width: 200px;
+	height: 130px;
+	object-fit: fill;
+}
+
+.custom-dropdown .dropdown-menu {
+  max-width: none;
+  width: auto; 
+  padding: 0.5rem;
+}
+
+/* admin_product.html */
+.container-form {
+  width: 80%;
+	padding: 20px;
+	border-radius: 8px;
+}
+
+.add-product-btn {
+	flex: 100%;
+	background-color: #986c4a;
+	color: #fff;
+	padding: 10px 15px;
+	height: 40px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.add-product-btn:hover {
+	background-color: #bc865c;
+}
+
+/* admin_update_product.php */
+.update-product form{
+  margin:0 auto;
+  max-width: 100rem;
+  background-color: var(--white);
+  border-radius: .5rem;
+  box-shadow: var(--box-shadow);
+  border:var(--border);
+  padding:2rem;
+}
+
+.update-product form img{
+  height: 25rem;
+  width: 100%;
+  object-fit: contain;
+}
+
+.update-product form .box{
+  background-color: var(--light-bg);
+  border:var(--border);
+  width: 100%;
+  padding:1.4rem;
+  font-size: 1.8rem;
+  color:var(--black);
+  border-radius: .5rem;
+  margin: 1rem 0;
+}
+
+.update-product form textarea{
+  height: 15rem;
+  resize: none;
+}
+
+.update-product form span{
+  font-size: 1.7rem;
+  color:var(--black);
+}

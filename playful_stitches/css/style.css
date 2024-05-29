@@ -1,0 +1,143 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* Landing Page */
+.second-nav {
+  background-color: white;
+  padding-left: 50px;
+}
+
+.second-nav .nav-item {
+  margin: 10px;
+  margin-right: 100px;
+}
+
+.second-nav .nav-link.active {
+  font-weight: bold;
+  color: #986C4A;
+}
+
+.second-nav .nav-link {
+  color: #986C4A;
+}
+
+footer {
+  background: linear-gradient(white 85%, #cbb08d 15%);
+  color: #a17d60;
+}
+
+h5 {
+  color: #a17d60;
+  font-weight: bold;
+}
+
+p {
+  color: #a17d60;
+}
+
+.bottom p {
+  color: #f8f7f6;
+}
+
+/* Resize Image */
+.col-md-3 {
+  overflow: hidden; /* Ensures images don't overflow their containers */
+}
+
+.col-md-3 img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.row {
+  overflow: hidden; /* Ensures images don't overflow their containers */
+}
+
+.row img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Navigation */
+.nav-pills .nav-link {
+  background-color: transparent;
+  border: 2px solid #A17D60;
+  border-radius: 38px;
+  margin: 30px; /* Add margin to separate the links */
+  color: #A17D60;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #A17D60;
+  color: white;
+}
+
+/* Add to cart Button */
+.btn-primary {
+  background-color: transparent;
+  border: 2px solid #A17D60;
+  color: black;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #986c4a;
+    border-color: #986c4a;
+}
+
+.product-link {
+  text-decoration: none;
+  color: rgb(27, 27, 27);
+}
+
+.custom-checkbox .custom-control-input {
+  width: 1.5em;
+  height: 1.5em;
+  border: 2px solid #000;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.custom-checkbox .custom-control-input:checked {
+  background-color: #000;
+  border-color: #000;
+}
+
+
+/* login.php */
+.form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-container h3 {
+    text-align: center;
+}
+
+.box {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+p {
+    text-align: center;
+}
+
+/* check out 
+input[type="submit"]:hover {
+  background-color: #000000;
+}*/

@@ -1,0 +1,5 @@
+from sympy import *
+a,b=symbols('a b')
+print(expand((a+b)*(a-b)))
+
+
